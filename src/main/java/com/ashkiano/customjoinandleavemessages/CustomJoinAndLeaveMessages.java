@@ -15,6 +15,8 @@ public final class CustomJoinAndLeaveMessages extends JavaPlugin implements List
 
         Metrics metrics = new Metrics(this, 21175);
 
+        this.getLogger().info("Thank you for using the CustomJoinAndLeaveMessages plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
+
         // Register the current class as an event listener
         getServer().getPluginManager().registerEvents(this, this);
     }
